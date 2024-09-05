@@ -49,6 +49,7 @@ public class Main {
         System.out.println("Car 2 year: " + car2.year);   // Outputs 2018
     }
 }
+```java
 Explanation of Code
 Class: The Car class defines attributes such as brand, model, and year. It also contains a constructor to initialize these values when creating an object and a method to display the car’s details.
 Object: In the main method, two objects of the Car class, car1 and car2, are created. Both are separate instances with their own attribute values.
