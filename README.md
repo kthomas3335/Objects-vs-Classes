@@ -10,20 +10,21 @@ Class: A class defines the properties and methods but does not allocate memory f
 Object: An object is an instance of a class, and it occupies memory. It contains specific values for the attributes defined by the class.
 
 Example code:
+```java
 // Define a class called "Car"
 class Car {
     // Fields/attributes of the class
     String brand;
     String model;
     int year;
-    
+
     // Constructor to initialize the object
     Car(String brand, String model, int year) {
         this.brand = brand;
         this.model = model;
         this.year = year;
     }
-    
+
     // Method to display car details
     void displayDetails() {
         System.out.println("Brand: " + brand);
@@ -48,7 +49,6 @@ public class Main {
         System.out.println("Car 2 year: " + car2.year);   // Outputs 2018
     }
 }
-
 Explanation of Code
 Class: The Car class defines attributes such as brand, model, and year. It also contains a constructor to initialize these values when creating an object and a method to display the car’s details.
 Object: In the main method, two objects of the Car class, car1 and car2, are created. Both are separate instances with their own attribute values.
